@@ -13,3 +13,6 @@ echo  -e "Winston\nChurchill\nBruce\n "> cohort-1.txt
 echo  -e "Nzengele\nSolim\nLuyando\n "> cohort-3.txt
 # updating the_coder.sh
 echo "this is the updated script"
+
+# Using 'grep' command to find a specific name of one of the student names without opening the files
+grep -r "Luyando" students_directory/
